@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+}
+/* font family  */
+@font-face {
+  font-family: lulocleanone-Bold;
+  src: url("./assets/fonts/Lulo-Clean-One/LuloCleanOne-Bold.ttf");
+}
+@font-face {
+  font-family: ProximaNova-Regular;
+  src: url(./assets/fonts/proxima-nova/ProximaNova-Regular.otf);
+}
+@font-face {
+  font-family: ProximaNova-Semibold;
+  src: url(./assets/fonts/proxima-nova/ProximaNova-Semibold.otf);
+}
+@font-face {
+  font-family: ProximaNova-Bold;
+  src: url(./assets/fonts/proxima-nova/ProximaNova-Bold.otf);
+}
+.ff_lulocleanone {
+  font-family: lulocleanone-Bold, sans-serif;
+}
+.ff_proximanova_regular {
+  font-family: ProximaNova-Regular, sans-serif;
+}
+.ff_proximanova_semibold {
+  font-family: ProximaNova-Semibold, sans-serif;
+}
+.ff_proximanova_bold {
+  font-family: ProximaNova-Bold, sans-serif;
+}
+.group:hover svg rect {
+  fill-opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+.group:hover svg path {
+  fill: white;
+  transition: all 0.3s ease-in-out;
+}
