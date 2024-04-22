@@ -1,6 +1,5 @@
 import React from "react";
 import { oneClick } from "./common/Helper";
-import any from "../assets/images/one-click/Pipedrive.svg";
 
 const OneClick = () => {
   return (
