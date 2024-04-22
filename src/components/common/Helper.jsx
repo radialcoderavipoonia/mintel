@@ -1,24 +1,20 @@
+import cultivado from "../../assets/images/brands/cultivado.png";
+import sos from "../../assets/images/brands/sos.png";
+import trust from "../../assets/images/brands/trust.png";
+import Hubspot from "../../assets/images/one-click/Hubspot.svg";
+import monday from "../../assets/images/one-click/Monday.svg";
+import outreach from "../../assets/images/one-click/Outreach.svg";
+import pipedrive from "../../assets/images/one-click/Pipedrive.svg";
+import salesloft from "../../assets/images/one-click/Salesloft.svg";
+import sdfc from "../../assets/images/one-click/Sdfc.svg";
 import {
-  AccurateData,
   Archery,
   Dollar,
-  Focus,
   MIcon,
   Peoples,
   SalesPerson,
-  SaveTime,
-  Search,
-  Streamlined,
+  Search
 } from "./Icons";
-import pipedrive from "../../assets/images/one-click/Pipedrive.svg";
-import Hubspot from "../../assets/images/one-click/Hubspot.svg";
-import sdfc from "../../assets/images/one-click/Sdfc.svg";
-import outreach from "../../assets/images/one-click/Outreach.svg";
-import salesloft from "../../assets/images/one-click/Salesloft.svg";
-import monday from "../../assets/images/one-click/Monday.svg";
-import trust from "../../assets/images/brands/trust.png";
-import cultivado from "../../assets/images/brands/cultivado.png";
-import sos from "../../assets/images/brands/sos.png";
 
 export const salesPeople = [
   {
@@ -54,38 +50,47 @@ export const prospecting = [
 ];
 export const oneClick = [
   {
+    links: "https://www.pipedrive.com/",
     icons: pipedrive,
     title: "Pipedrive",
   },
   {
+    links: "https://www.hubspot.com/",
     icons: Hubspot,
     title: "Hubspot",
   },
   {
+    links: "https://sdfc.mv/Home/En",
     icons: sdfc,
     title: "SFDC",
   },
   {
+    links: "https://www.outreach.io/",
     icons: outreach,
     title: "Outreach",
   },
   {
+    links: "https://www.salesloft.com/",
     icons: salesloft,
     title: "Salesloft",
   },
   {
+    links: "https://monday.com/",
     icons: monday,
     title: "Monday",
   },
 ];
 export const brands = [
   {
+    links: "https://hypebeast.com/tags/louis-w",
     icons: trust,
   },
   {
+    links: "https://www.cultivado.io/",
     icons: cultivado,
   },
   {
+    links: "https://sosunlimited.co/contact/",
     icons: sos,
   },
 ];

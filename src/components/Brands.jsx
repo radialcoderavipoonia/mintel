@@ -10,12 +10,15 @@ const Brands = () => {
         </h2>
         <div className="flex pt-10 gap-[25px] justify-center flex-wrap ">
           {brands.map((trust, value) => (
-            <div
-              key={value}
-              className="py-[50px] px-3 lg:w-[362px] w-[250px] border border-[#CCCCCC] rounded-md flex justify-center shadow-[0px_0px_23.3px_0px_rgba(0,0,0,0.12)]"
-            >
-              <img src={trust.icons} alt="brands icons" className="lg:h-[66px] h-[50px]" />
-            </div>
+            <a key={value} href={trust.links} target="blank">
+              <div className="py-[50px] px-3 lg:w-[362px] w-[250px] border border-[#CCCCCC] hover:scale-90 transition-all duration-300 ease-in-out rounded-md flex justify-center shadow-[0px_0px_23.3px_0px_rgba(0,0,0,0.12)]">
+                <img
+                  src={trust.icons}
+                  alt="brands icons"
+                  className="lg:h-[66px] h-[50px]"
+                />
+              </div>
+            </a>
           ))}
         </div>
       </div>

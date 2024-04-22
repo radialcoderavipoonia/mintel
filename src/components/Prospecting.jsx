@@ -24,10 +24,10 @@ const Prospecting = () => {
             </div>
           ))}
 
-          <span className="absolute xl:top-[30%] lg:top-[21%] top-[38%] xl:left-[28%] left-[47%] lg:rotate-0 rotate-[90deg]">
+          <span className="absolute xl:top-[30%] lg:top-[21%] top-[35%] xl:left-[28%] sm:left-[47%] left-[42%] lg:rotate-0 rotate-[90deg]">
             <Arrow />
           </span>
-          <span className="absolute xl:top-[30%] lg:top-[50%] top-[72%] xl:right-[28%] lg:right-[47%] right-[45%] xl:rotate-0 rotate-[90deg]">
+          <span className="absolute xl:top-[30%] lg:top-[50%] top-[68%] xl:right-[28%] lg:right-[47%] sm:right-[46%] right-[41%] xl:rotate-0 rotate-[90deg]">
             <Arrow />
           </span>
         </div>

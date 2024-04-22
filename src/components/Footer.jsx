@@ -19,7 +19,7 @@ const Footer = () => {
               <input
                 type="email"
                 required
-                className=" bg-transparent w-full placeholder:ff_proximanova_regular placeholder:font-normal placeholder:text-base text-[#B2B2B2] p-4"
+                className=" bg-transparent w-full placeholder:ff_proximanova_regular placeholder:font-normal placeholder:text-base text-[#B2B2B2] p-4 outline-none"
                 placeholder="Enter your business email"
               />
               <button className=" bg-[#0BB89D] ff_proximanova_regular font-normal text-base py-4 px-[29px] rounded text-nowrap text-white border border-[#0BB89D] hover:bg-transparent hover:text-[#0BB89D] transition-all ease-in-out duration-300">
@@ -32,7 +32,7 @@ const Footer = () => {
               Follow Us
             </p>
 
-            <a href="www.linkedIn.com" target="blank">
+            <a href="https://www.linkedin.com/" target="blank">
               <img
                 src={linkedIn}
                 alt="linkedIn"
@@ -43,21 +43,27 @@ const Footer = () => {
               Backed by
             </p>
             <div className=" flex gap-4 sm:flex-row flex-col">
-              <img
-                src={goggle}
-                alt="goggle"
-                className=" max-w-[100px] hover:scale-95  transition-all ease-in-out duration-300"
-              />
-              <img
-                src={microsoft}
-                alt="microsoft"
-                className=" max-w-[130px] hover:scale-95  transition-all ease-in-out duration-300"
-              />
-              <img
-                src={aws}
-                alt="microsoft"
-                className=" max-w-[183px] hover:scale-95  transition-all ease-in-out duration-300"
-              />
+              <a href="https://startup.google.com/" target="blank">
+                <img
+                  src={goggle}
+                  alt="goggle"
+                  className=" max-w-[100px] hover:scale-95  transition-all ease-in-out duration-300"
+                />
+              </a>
+              <a href="https://www.microsoft.com/en-us/startups" target="blank">
+                <img
+                  src={microsoft}
+                  alt="microsoft"
+                  className=" max-w-[130px] hover:scale-95  transition-all ease-in-out duration-300"
+                />
+              </a>
+              <a href="https://aws.amazon.com/partners/programs/global-startup/" target="blank">
+                <img
+                  src={aws}
+                  alt="microsoft"
+                  className=" max-w-[183px] hover:scale-95  transition-all ease-in-out duration-300"
+                />
+              </a>
             </div>
           </div>
         </div>

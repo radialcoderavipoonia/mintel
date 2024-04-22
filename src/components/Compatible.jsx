@@ -9,26 +9,26 @@ const Compatible = () => {
           COMPATIBLE WITH
         </h2>
         <div className="lg:pt-[60px] md:pt-14 pt-12 flex justify-center flex-wrap md:gap-[104px] sm:gap-10 gap-6 sm:flex-row flex-col">
-          <div className="flex justify-center items-center">
-            <span>
+          <div className="flex justify-center items-center gap-1">
+            <a href="https://www.linkedin.com/" target="blank">
               <Linkedin />
-            </span>
+            </a>
             <p className="text-white ff_proximanova_bold font-bold xl:text-[34px] md:text-[28px] text-[24px] leading-[121%]">
               Recruiter
             </p>
           </div>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center gap-1">
             <p className="text-white ff_proximanova_bold font-bold xl:text-[34px] md:text-[28px] text-[24px] leading-[121%]">
               Linked
             </p>
-            <span>
+            <a href="https://www.linkedin.com/" target="blank">
               <Linkedin />
-            </span>
+            </a>
           </div>
-          <div className="flex justify-center items-center">
-            <span>
+          <div className="flex justify-center items-center gap-1">
+            <a href="https://www.linkedin.com/" target="blank">
               <Linkedin />
-            </span>
+            </a>
             <p className="text-white ff_proximanova_bold font-bold xl:text-[34px] md:text-[28px] text-[24px] leading-[121%]">
               Sales Navigator
             </p>
